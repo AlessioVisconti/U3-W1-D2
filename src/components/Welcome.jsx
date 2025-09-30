@@ -8,14 +8,12 @@ function Welcome() {
   return (
     <>
       <Alert show={show} variant="success">
-        <Alert.Heading>My Alert</Alert.Heading>
-        <p>
-          Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum.
-        </p>
+        <Alert.Heading>Allertati</Alert.Heading>
+        <p>Benvenuti sulla mia Pagina non proprio made in China non proprio Made in Italy</p>
         <hr />
         <div className="d-flex justify-content-end">
           <Button onClick={() => setShow(false)} variant="outline-success">
-            Close me
+            Chiudimi
           </Button>
         </div>
       </Alert>
