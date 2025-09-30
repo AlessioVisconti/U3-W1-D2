@@ -1,11 +1,11 @@
 import { Component } from "react";
-import Card from "react-bootstrap/Card";
+
 import LibriFantasy from "../../data/fantasy.json";
 import LibriHistory from "../../data/history.json";
 import LibriHorror from "../../data/horror.json";
 import LibriRomance from "../../data/romance.json";
 import LibriScifi from "../../data/scifi.json";
-import { Badge, Col, Container, Row } from "react-bootstrap";
+import { Badge, Col, Container, Row, Card } from "react-bootstrap";
 
 class AllTheBooks extends Component {
   render() {
